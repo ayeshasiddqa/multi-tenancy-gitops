@@ -105,7 +105,7 @@ resources:
 #- argocd/instances/baas-instance.yaml
 
 # Other services
-# - argocd/operators/rabbitmq.yaml
+- argocd/operators/rabbitmq.yaml
 
 patches:
 - target:
