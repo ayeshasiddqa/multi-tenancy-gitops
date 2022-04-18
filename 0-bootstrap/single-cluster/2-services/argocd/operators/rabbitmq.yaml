@@ -20,9 +20,9 @@ spec:
     helm:
       values: |
         rabbitmqImage:
-        registry: docker.io
-        repository: bitnami/rabbitmq
-        tag: 3.8.28-debian-10-r1
+          registry: docker.io
+          repository: bitnami/rabbitmq
+          tag: 3.8.28-debian-10-r1
   syncPolicy:
     automated:
       prune: true
