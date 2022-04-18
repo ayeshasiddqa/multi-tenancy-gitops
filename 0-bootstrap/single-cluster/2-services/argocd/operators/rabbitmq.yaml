@@ -23,12 +23,9 @@ spec:
           registry: docker.io
           repository: bitnami/rabbitmq
           tag: 3.8.28-debian-10-r1
-        podSecurityContext: {}
-          # fsGroup: 1001
-          # runAsUser: 1001
         serviceAccount:
           name: rabbitmq
-          create: true
+        podSecurityContext: null
   syncPolicy:
     automated:
       prune: true
