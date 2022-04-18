@@ -104,6 +104,9 @@ resources:
 #- argocd/instances/oadp-instance.yaml
 #- argocd/instances/baas-instance.yaml
 
+# Other services
+- argocd/operators/rabbitmq.yaml
+
 patches:
 - target:
     group: argoproj.io
