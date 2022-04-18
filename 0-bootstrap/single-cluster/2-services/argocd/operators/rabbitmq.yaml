@@ -23,6 +23,10 @@ spec:
           registry: docker.io
           repository: bitnami/rabbitmq
           tag: 3.8.28-debian-10-r1
+          securityContext:
+            enabled: true
+            fsGroup: 1001
+            runAsUser: 1001
   syncPolicy:
     automated:
       prune: true
