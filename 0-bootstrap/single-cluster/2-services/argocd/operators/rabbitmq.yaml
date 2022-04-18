@@ -21,9 +21,7 @@ spec:
       values: |
         enabled: true
         replicaCount: 1
-        podSecurityContext:
-          #fsGroup: 1001
-          #runAsUser: 1001
+        podSecurityContext: null
   syncPolicy:
     automated:
       prune: true
