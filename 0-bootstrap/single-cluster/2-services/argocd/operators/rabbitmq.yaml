@@ -28,6 +28,7 @@ spec:
           # runAsUser: 1001
         serviceAccount:
           name: rabbitmq
+          create: true
   syncPolicy:
     automated:
       prune: true
