@@ -106,7 +106,7 @@ resources:
 
 # Other services
 - argocd/operators/rabbitmq.yaml
-
+- argocd/roles/rabbitmq-roles.yaml
 patches:
 - target:
     group: argoproj.io
