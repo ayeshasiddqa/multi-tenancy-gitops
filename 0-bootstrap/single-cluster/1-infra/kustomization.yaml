@@ -24,8 +24,6 @@ resources:
 #- argocd/namespace-db2.yaml
 #- argocd/namespace-mq.yaml
 - argocd/namespace-rabbitmq.yaml
-- argocd/role-rabbitmq.yaml
-- argocd/rolebinding-rabbitmq.yaml
 #- argocd/serviceaccounts-ibm-common-services.yaml
 #- argocd/serviceaccounts-tools.yaml
 #- argocd/serviceaccounts-db2.yaml
