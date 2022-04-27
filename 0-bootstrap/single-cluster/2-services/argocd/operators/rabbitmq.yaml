@@ -16,7 +16,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: services
   source:
-    path: operators/rabbit-mq
+    path: operators/rabbitmq
     helm:
       values: |
         enabled: true
